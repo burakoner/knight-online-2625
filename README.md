@@ -10,8 +10,8 @@ Bu depo **derlenmiş yerel test paketini** içerir. Ana kaynak kod deposu özel 
 
 | Klasör | İçerik |
 | --- | --- |
-| [`server/`](server/) | LoginServer, GameServer, VoiceServer ve çalışma dosyaları. |
 | [`database/`](database/) | AO_ACCOUNT ve AO_SERVER_01 tam veritabanı yedekleri, SHA-256 listesi. |
+| [`server/`](server/) | LoginServer, GameServer, VoiceServer ve çalışma dosyaları. |
 | [`client/`](client/) | Orijinal istemcinin üzerine kopyalanacak dosyalar. |
 
 ## Sunucuyu kurun
@@ -50,9 +50,21 @@ Bu depo **derlenmiş yerel test paketini** içerir. Ana kaynak kod deposu özel 
 2. Bu depodaki [`client/`](client/) klasörünün **içindeki dosyaları**, kurduğunuz oyunun ana klasörüne kopyalayın; aynı adlı dosyaları değiştirin.
 3. `Server.ini` içindeki `[Server] IP0=127.0.0.1` değerini koruyun ve paketten gelen **Launcher.exe** ile başlayın.
 
-## Client güvenliği: VirusTotal 0/71
+## Tek çözümde 45 proje
 
-**İmzalı `KnightOnline-21-Signed.exe` referans dosyasının paylaşılan taramasında 71 güvenlik motorunun hiçbiri zararlı yazılım tespit etmedi.** Sonucu doğrudan inceleyin:
+![Sunucu, client, editör, araç ve testleri kapsayan 45 proje](assets/solution.png)
+
+## 2.853 Commit Geliştirme Geçmişi
+
+![Özel kaynak kod deposundaki 2.853 commit](assets/repository.png)
+
+## Web Tabanlı GM Kontrol Panel
+
+![Knight Online GM kontrol paneli — Operations Center](assets/editor.png)
+
+## Client Güvenliği: VirusTotal 0/71
+
+**Referans client dosyasının paylaşılan taramasında 71 güvenlik motorunun hiçbiri zararlı yazılım tespit etmedi.** Sonucu doğrudan inceleyin:
 
 [VirusTotal raporunu açın](https://www.virustotal.com/gui/file/16f6a474068034477acdcca69d421a8eb026b8669ed297ef06065ca8ac570929)
 
@@ -60,7 +72,7 @@ Bu depo **derlenmiş yerel test paketini** içerir. Ana kaynak kod deposu özel 
 
 Rapor, belirtilen imzalı dosyanın SHA-256 kimliğine aittir; paketteki tüm dosyalar için toplu tarama sonucu değildir.
 
-## Kaynak projenin ölçeği
+## Kaynak Projenin Ölçeği
 
 Sunucu, Guard, Launcher, editörler, araçlar ve testler aynı geliştirme alanında. Aşağıdaki görseller ana projenin paylaşılan geliştirme görünümüdür.
 
@@ -68,23 +80,11 @@ Sunucu, Guard, Launcher, editörler, araçlar ve testler aynı geliştirme alan�
 
 ![Ana geliştirme alanının 52 GB boyutu](assets/directory.png)
 
-**2.853 commit geliştirme geçmişi**
-
-![Özel kaynak kod deposundaki 2.853 commit](assets/repository.png)
-
-**Tek çözümde 45 proje**
-
-![Sunucu, client, editör, araç ve testleri kapsayan 45 proje](assets/solution.png)
-
-**Web tabanlı GM kontrol paneli**
-
-![Knight Online GM kontrol paneli — Operations Center](assets/editor.png)
-
-## Test edin. Kaynak kodları konuşalım.
+## Test edin. Kaynak kodlara erişim için iletişime geçin.
 
 Paketi kurun, sistemi deneyin. Kaynak kodlara erişim, kurulum ve proje hakkında görüşmek için doğrudan ulaşın:
 
 **Burak Öner**
 
-- **E-posta:** [info@burakoner.com](mailto:info@burakoner.com)
 - **Telefon:** [0532 350 0682](tel:+905323500682)
+- **E-posta:** [info@burakoner.com](mailto:info@burakoner.com)
