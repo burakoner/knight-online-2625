@@ -76,6 +76,10 @@ Sunucu, Guard, Launcher, editörler, araçlar ve testler aynı geliştirme alan�
 
 ![Sunucu, client, editör, araç ve testleri kapsayan 45 proje](assets/solution.png)
 
+**Web tabanlı GM kontrol paneli**
+
+![Knight Online GM kontrol paneli — Operations Center](assets/editor.png)
+
 ## Test edin. Kaynak kodları konuşalım.
 
 Paketi kurun, sistemi deneyin. Kaynak kodlara erişim, kurulum ve proje hakkında görüşmek için doğrudan ulaşın:
